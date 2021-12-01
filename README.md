@@ -38,6 +38,8 @@ fire
 
 use of x11 colors https://en.wikipedia.org/wiki/X11_color_names
 
+conversion in react three fiber https://docs.pmnd.rs/react-three-fiber/getting-started/examples
+
 # GAME PLAY
 
 GROW: hit only blue sphere of the same size or smaller then hero
