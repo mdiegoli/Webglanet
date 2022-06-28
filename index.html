@@ -2,6 +2,15 @@
 <html>
 
 <head>
+	<script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.138.0/build/three.module.js",
+                "trackballcontrols": "https://unpkg.com/three@0.138.0/examples/jsm/controls/TrackballControls.js",
+				"stats": "https://threejs.org/examples/jsm/libs/stats.module.js"
+            }
+        }
+    </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -104,12 +113,12 @@
 	</script>
   <script type="module">
 
-			import * as THREE from 'https://threejs.org/build/three.module.js';
+			import * as THREE from 'three';
 
-			import Stats from 'https://threejs.org/examples/jsm/libs/stats.module.js';
+			import Stats from 'stats';
 			//import { GUI } from 'https://threejs.org/examples/jsm/libs/dat.gui.module.js';
 
-			import { TrackballControls } from 'https://threejs.org/examples/jsm/controls/TrackballControls.js';
+			import { TrackballControls } from 'trackballcontrols';
 
 			let perspectiveCamera, orthographicCamera, scamera, controls, scene, sscene, renderer, stats;
 
